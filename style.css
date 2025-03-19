@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Nosifer";
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+body{
+    background-image: url(image\ 5.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.bg_nav{
+    background-color: black;
+}
+.bg_nav1{
+    background-color: #222222;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    color: white;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    }
+    .nav_item:hover{
+        background-color: #F1A900;
+        color: black;
+        transition: 1s;
+        padding: 26px 21px;
+    }
+.img{
+    margin-left: 4px;
+}
+.nav1{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    color: white;
+}
+.nav_list1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.h2-1{
+    font-family: Inter;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 235px;
+padding: 10px 0px;
+background-color: #F1A900;
+}
+.h2-2{
+    font-family: Inter;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+width: 235px;
+padding: 10px 0px;
+background-color: black;
+color: white;
+}
+.h1{
+    background: #F1A90054;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    width: 966px;
+    padding: 31px 22px;
+    color: white;
+    margin-bottom: 149px;
+}
+.title{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-top: 349px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    margin: 31px 64px;
+}
+.bg_nav2{
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.img-end{
+    gap: 50px;
+display: flex;
+width: 24px;
+height: 24px;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
